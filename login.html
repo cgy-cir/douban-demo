@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1443851_ndp8cjkv71i.css">
+    <link rel="stylesheet" href="./login.css">
+    
+    <title>login</title>
+</head>
+<body> 
+<!-- 短信登录/注册，密码登录 -->
+<div class="account">
+    <!-- 切换菜单 -->
+    <div class="account-tabs">
+        <ul>
+            <li>短信登录／注册</li>
+            <li>密码登录</li>
+        </ul>
+        <div class="icon-switch">
+            <a href="/"></a>
+        </div>
+    </div>
+    <!-- 短信登录 -->
+    <div class="account-tabcon">
+        <div class="account-form">
+            <div class="account-form-tips">
+                请仔细阅读<a href="/">豆瓣使用协议、隐私政策</a>
+            </div>
+            <form action="/">
+                <input type="phone" maxlength="13" class="account-form-input" placeholder="手机号">
+                <div class="selected">
+                    +86
+                </div>
+                <input type="text" class="account-form-input" placeholder="验证码">
+                <a href="/" >获取验证码</a>
+                <div class="account-form-submit">
+                    <a href="/" class="account-form-btn">登录豆瓣</a>
+                </div>
+            </form>
+        </div>
+        <div class="account-form-ft">
+            <p class="account-form-remember">
+                <input type="checkbox" id="account-form-remember">
+                <label for="account-form-remember">下次自动登录</label>
+            </p>
+            <p class="account-form-link">
+                <a href="/">收不到验证码</a>
+            </p>
+        </div>
+        <div class="account-form-3rd">
+            <div class="account-form-3rd-hd">
+                第三方登录：
+            </div>
+            <div class="account-form-3rd-bd">
+                <i class="iconfont iconweibo"></i>
+                <i class="iconfont iconweixin"></i>
+            </div>
+        </div>
+    </div>
+    <!-- 密码登录 -->
+    <div></div>
+</div>
+<!-- 扫码登录 -->
+<div></div>
+</body>
+</html>

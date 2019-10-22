@@ -1,0 +1,769 @@
+@import "./common.css";
+body{
+    padding-top: 30px;
+}
+/* 导航开始 */
+nav{
+width: 950px;
+margin: 0 auto 25px;
+}
+nav > h1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 34px; 
+    background: url(./images/logo_db@2x.png) top left/100% no-repeat;
+    margin-right: 20px;
+    overflow: hidden;
+}
+nav > h1 > a{
+    display: block;
+    height: 34px;
+    line-height: 10em;
+}
+
+nav > .nav-serch{
+    display: inline-block;
+    width: 270px;
+    height: 30px;
+    vertical-align: middle;
+    border: 1px solid #c3c3c3;
+}
+nav > .nav-serch > form{
+    border: 0px;
+    
+}
+nav > .nav-serch > form > input:nth-of-type(1){
+    width: 260px;
+    height: 20px;
+    border: none;
+    vertical-align: middle;
+    font-size: 13px;
+    padding: 5px;
+    
+}
+nav > .nav-serch > form > input:nth-of-type(1)::placeholder{
+    color: #ccc;
+}
+nav > .nav-serch > form > input:nth-of-type(2){
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+    cursor: pointer;
+    color: transparent;
+    background: transparent;
+    background:url(./images/serch.png) 50% 50% no-repeat;
+    border: none;
+    
+}
+
+nav > .nav-links{
+    margin-top: 6px;
+    float: right;
+}
+nav > .nav-links > ul > li{
+display: inline-block;
+margin-left: 17px;
+}
+nav > .nav-links > ul > li > a{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: url(./images/nav_logo.png) top left/463px 20px;
+    vertical-align: middle;
+    line-height: 6em;
+    overflow: hidden;
+    cursor: pointer;
+}
+nav > .nav-links > ul > li >.link-book{
+    background-position: 0;
+}
+nav > .nav-links > ul > li >.link-movie{
+    background-position: -60px;
+}
+nav > .nav-links > ul > li >.link-music{
+    background-position: -120px;
+}
+nav > .nav-links > ul > li >.link-group{
+    background-position: -180px;
+}
+nav > .nav-links > ul > li >.link-city{
+    background-position: -300px;
+}
+nav > .nav-links > ul > li >.link-fm{
+    background-position: -240px;
+}
+nav > .nav-links > ul > li >.link-time{
+    background: transparent url(./images/ic_shijian_home_nav.png) no-repeat 100% 100%;
+}
+nav > .nav-links > ul > li >.link-market{
+    width: 42px;
+    background-position: -421px;
+}
+/* 导航结束 */
+
+/* 横幅部分开始 */
+.anony-reg-new{
+    height: 304px;
+    background-image: url(./images/16ad990ec23uwn790d4.jpg);
+    margin-bottom: 25px;
+    background-size: contain;
+    background-position: -webkit-calc(50% - 305px) top;
+    background-position: calc(50% - 305px) top;
+    background-repeat: no-repeat;
+    background-color: #edf4ed;
+    margin-bottom: 25px;
+}
+.anony-reg-new .reg-new-wrapper{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 0 4px;
+}
+.anony-reg-new .reg-new-wrapper .login{
+    float: right;
+}
+.anony-reg-new .reg-new-wrapper .login iframe{
+    width: 300px;
+    height: 300px;
+}
+.anony-reg-new .reg-new-wrapper .app{
+    position: absolute;
+    height: 120px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 475px;
+}
+.anony-reg-new .reg-new-wrapper .app > p{
+    margin: 7px 0;
+    font-size: 25px;
+    color: #111;
+    line-height: 24px;
+}
+.anony-reg-new .reg-new-wrapper .app p span{
+    margin-left: 3px;
+}
+.anony-reg-new .reg-new-wrapper .app .lnk-app{
+    display: inline-block;
+    background: #00B51D;
+    color: #FFF;
+    padding: 9px 21px;
+    margin-right: 2px;
+    margin-top: 18px;
+    vertical-align: top;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1;
+}
+.anony-reg-new .reg-new-wrapper .app .app-qr{
+    display: inline-block;
+}
+.anony-reg-new .reg-new-wrapper .app  .expand-qr{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #00B51D;
+    width: 30px;
+    height: 30px;
+    background: url(./images/icon_qrcode_green.png) top left/100%;
+    border-radius: 2px;
+    margin-top: 18px;
+}
+.app-qr .app-qr-expand{
+    display: none;
+    position:absolute;
+    margin-top: -34px;
+    padding: 20px 20px 5px;
+    background: #FFF;
+
+}
+.app-qr .app-qr-expand p{
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    line-height: 13px;
+    white-space: nowrap;
+    margin: 13px 0;
+}
+.app-qr .app-qr-expand img{
+    width: 160px;
+    height: 160px;
+}
+.anony-reg-new .reg-new-wrapper .app .app-qr:hover .app-qr-expand{
+    display: block;
+}
+/* 横幅部分结束 */
+/* 内容开始 */
+
+/* 热点 */
+.anony-sns .albums{
+    width: 350px;
+    color: #999;
+}
+.anony-sns .albums ul{
+    margin: -10px 0 0 -10px;
+    font-size: 0;
+}
+.anony-sns .albums ul li{
+    display: inline-block;
+    width: 170px;
+    font-size:12px;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+.anony-sns .albums ul li .pic{
+    display: inline-block;
+    width: 170px;
+}
+.anony-sns .notes{
+    position: absolute;
+    top: 34px;
+    left: 380px;
+}
+.anony-sns .notes ul li{
+    margin-top: 12px;
+}
+.anony-sns .notes ul .first .author{
+    color:#999;
+}
+.anony-sns .notes ul .first p{
+    color: #666;
+}
+.anony-sns .side .rec-topics{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+.anony-sns .side .rec-topics .rec_topics_name{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+.anony-sns .side .rec_topics_subtitle{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 1;
+    color: #aaaaaa;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 时间 */
+.list{
+    font-size: 0;
+}
+.list > li{
+    display: inline-block;
+    vertical-align: top;
+}
+.sidenav ul li{
+    margin-top: 5px;
+}
+.sidenav ul li a{
+    font-size: 14px;
+}
+.pic{
+    margin-bottom: 10px;
+}
+
+
+
+
+.anony-time .main .list li{
+    width: 100px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.anony-time .main .list li a:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.anony-time .main .list li a:nth-of-type(2){ 
+    line-height: 1.38;
+}
+.anony-time .main .list li a:hover{
+    color: #fff;
+}
+.anony-time .main .list li a::after{
+    content:'';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+
+}
+.anony-time .main .list li .video::after{
+    background: url(./images/ic_video_w@2x.png) center/12px no-repeat;
+    margin-top: -22px;
+    margin-left: 74px;
+}
+.anony-time .main .list li .audio::after{
+    background: url(./images/ic_audio_w@2x.png) center/12px no-repeat;
+    margin-top: -22px;
+    margin-left: 74px;
+}
+.anony-time .main .list li a img{
+    width: 100px;
+    height: 141px;
+}
+.anony-time .main .list li .type {
+    display: block;
+    color: #999999;
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* 视频 */
+.anony-video .main > a{
+    display: inline;
+}
+.anony-video .main > a:hover{
+    background: transparent;
+}
+.anony-video .main >a h2{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.anony-video .main .list{
+    margin-bottom: 25px;
+}
+.anony-video .main .list li{
+    margin-right: 30px;
+    width: 250px;
+}
+.anony-video .main .list li:nth-of-type(3n){
+    margin-right: 0;
+}
+.anony-video .main .list li a{
+    margin-bottom: 11px;
+}
+.anony-video .main .list li a:nth-of-type(1)::before{
+    position: absolute;
+    font-size: 40px;
+    color: #FFF;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.anony-video .main .list li a img{
+    height: 140px;
+    width: 250px;
+}
+
+/* 电影 */
+.anony-movie .movie-color{
+    color: #27a;
+}
+.anony-movie .movie-color:hover{
+    color: #fff;
+}
+
+.anony-movie .main .list li{
+    width: 132px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.anony-movie .main .list .pic{
+    height: 145px;
+    
+}
+.anony-movie .main .list .pic a{
+    font-size: 0;
+}
+.anony-movie .main .list .pic img{
+    width:100px;
+    display: inline-block;
+}
+.anony-movie .main .list .movie-title{
+    margin-bottom: 4px;
+}
+.anony-movie .main .list .rating{
+    line-height: 1.62;
+    margin-bottom: 4px;
+}
+.rating i{
+    color: #e09015;
+    margin-left: 4px;
+    font-style: normal;
+    font-weight: normal;
+}
+.anony-movie .main .list .bn-ticket{
+    display: inline-block;
+    color: #fff;
+    background: #1c8bd0;
+    padding: 2px 10px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.anony-movie .main .list .bn-ticket:hover{
+    background:#047fcb;
+}
+.anony-movie .side ol li{
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    border-bottom: 1px solid #eaeaea;
+}
+.anony-movie .side ol li a{
+    margin-left: 5px;
+}
+
+/* 小组 */
+
+.anony-group .sidenav h2 a{
+    color: #007982;
+}
+.anony-group .sidenav h2 a:hover{
+    color: #fff;
+}
+.anony-group .sidenav ul li{
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-top: 5px;
+}
+.anony-group .sidenav ul li a{
+    font-size: 14px;
+    color: #007982;
+}
+.anony-group .sidenav ul li a:hover{
+    color:#fff;
+}
+.anony-group .main ul{
+    margin-left: -30px;
+    margin-top: -22px;
+}
+.anony-group .main ul li{
+    width: 248px;
+    font-size: 12px;
+    text-align: left;
+    color:  #999;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.anony-group .main ul li .pic{
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.anony-group .main ul li .pic img{
+    width: 48px;
+}
+.anony-group .main ul li .info{
+    margin-bottom: 4px;
+}
+.anony-group .main ul li .info .title{
+    color: #017a85;
+}
+.anony-group .main ul li .info .title:hover{
+    color:#fff;
+}
+.anony-group .side .group-cate{
+    margin-bottom: 10px;
+}
+.anony-group .side .group-cate ul{
+    margin-left: -10px;
+}
+.anony-group .side .group-cate ul .cate-label{
+    width: 100%;
+    margin-bottom: 2px;
+}
+.anony-group .side .group-cate ul .cate-label a{
+    font-size: 14px;
+    color: #333;
+}
+.anony-group .side .group-cate ul .cate-label a:hover{
+    color:#fff
+}
+
+.anony-group .side .group-cate ul li{
+    margin-left: 12px;
+
+}
+.anony-group .side .group-cate ul li a{
+    color:#017a85;
+}
+.anony-group .side .group-cate ul li a:hover{
+    color: #fff;
+}
+
+/* 读书 */
+.anony-book .sidenav ul{
+    margin-bottom: 30px;
+}
+.anony-book .sidenav ul li a{
+    color: #614e3c;
+}
+.anony-book .sidenav ul li a:hover{
+    color: #fff;
+}
+.anony-book .sidenav .app-list a{
+    font-size: 0;
+}
+
+.anony-book .sidenav > a{
+    color: #614e3c;
+}
+.anony-book .sidenav > a:hover{
+    color: #fff;
+}
+.anony-book .main .list li{
+    text-align: center;
+    margin-top: 10px;
+    width: 24.8%;
+}
+.anony-book .main .list .pic a{
+    font-size: 0;
+}
+.anony-book .main .list .pic a img{
+    display: inline-block;
+    width: 100px;
+}
+.anony-book .main .list .title a{
+    font-size: 13px;
+    color: #614e3c;
+}
+.anony-book .main .list .title a:hover{
+    color: #FFF;
+}
+.anony-book .main .list .title{
+    display: block;
+    margin-bottom: 4px;
+}
+.anony-book .main .list li > a{
+    display: inline-block;
+    background-color: rgb(153, 154, 149);
+    color: white;
+    padding: 4px 10px;
+    margin: 3px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.anony-book .main .list li > a:hover{
+    background-color:#878882;
+}
+.anony-book .side .book-cate-mod{
+overflow: hidden;
+}
+.anony-book .side .book-cate-mod .book-cate{
+    padding-top: 10px;
+    margin: -1px 0 10px 0;
+    border-top: 1px solid #eaeaea;
+    color: #999;
+}
+.anony-book .side .book-cate-mod .book-cate{
+    margin-left:-10px;
+}
+.anony-book .side .book-cate-mod .book-cate li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.anony-book .side .book-cate-mod .book-cate li a{
+    color:#614e3c;
+}
+.anony-book .side .book-cate-mod .book-cate li a:hover{
+    color:#fff;
+}
+
+/* 音乐 */
+.anony-music .sidenav h2 a{
+    color: #f38c00;
+}
+.anony-music .sidenav h2 a:hover{
+    color: #fff;
+}
+.anony-music .sidenav ul li a{
+    color: #555d53;
+}
+.anony-music .sidenav ul li a:hover{
+    color: #fff;
+}
+.anony-music .sidenav ul{
+    margin-bottom: 30px;
+}
+.anony-music .sidenav .app-list a{
+    font-size: 0;
+}
+.anony-music .sidenav > a{
+    display: inline-block;
+    color:#555d53;
+    margin-bottom: 10px;
+}
+.anony-music .sidenav > a:hover{
+    color: #fff;
+}
+.anony-music .main .list li{
+    text-align: center;
+    width: 24.8%;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.anony-music .main .list .pic a{
+    font-size: 0;
+}
+.anony-music .main .list img{
+    display: inline-block;
+    width: 80px;
+}
+.anony-music .main .list  a{
+    color: #555d53;
+}
+.anony-music .main .list  a:hover{
+    color: #fff;
+}
+.anony-music .main  .rating{
+    margin-top: 5px;
+}
+.anony-music .side ul li > span{
+    float: left;
+    margin-right: 10px;
+}
+.anony-music .side .pic{
+    float: left;
+    margin-right: 10px;
+    margin-bottom:0;
+}
+.anony-music .side .pic img{
+    width: 48px;
+}
+.anony-music .side ul li{
+    margin-bottom: 16px;
+}
+.anony-music .side ul li .content a{
+    color: #555d53;
+}
+.anony-music .side ul li .content a:hover{
+    color: #fff;
+}
+.anony-music .side ul li .content .desc{
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* 豆品 */
+.anony-market .sidenav h2 a{
+    color: #1f9432;
+}
+.anony-market .sidenav h2 a:hover{
+    color: #fff;
+}
+.anony-market .main .list li{
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.anony-market .main .list .pic img{
+    width: 240px;
+    height: 220px;
+}
+.anony-market .main .list .market-spu-footer a{
+    font-size: 16px;
+}
+.anony-market .main .list .market-spu-footer  span{
+    float: right;
+    color: #E55457;
+    font-size: 16px;
+    line-height: 22px;
+}
+.anony-market .side .market-topics .pic img{
+    width: 100%;
+    height: 95px;
+}
+.anony-market .side .market-topics > span{
+    display: block;
+    margin-bottom: 14px;
+}
+.anony-market .side .market-topics span a{
+    font-size: 14px;
+}
+
+/* 同城 */
+.anony-events .sidenav h2 a{
+    color: #ec5303;
+}
+.anony-events .sidenav h2 a:hover{
+    color: #fff;
+}
+.anony-events .sidenav ul li a{
+    color: #643;
+}
+.anony-events .sidenav ul li a:hover{
+    color: #fff;
+}
+.anony-events .main .list li{
+    width: 248px;
+    margin-bottom: 40px;
+}
+.anony-events .main .list li:nth-of-type(odd){
+    margin-right: 20px;
+}
+.anony-events .main .list .pic{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.anony-events .main .list .info .title a{
+    font-size: 13px;
+    color: #643;
+}
+.anony-events .main .list .info .title a:hover{
+    color: #fff;
+}
+.anony-events .main .list .info .datetime{
+    color: #666;
+    margin-bottom: 4px;
+}
+.anony-events .main .list .info  span{
+    color: #666;
+}
+.anony-events .side .events-cate{
+    margin-bottom: 10px;
+}
+.anony-events .side .events-cate .list{
+    margin-left: -10px;
+}
+.anony-events .side .events-cate .cate-label{
+    width: 100%;
+    margin-bottom: 4px;
+}
+.anony-events .side .events-cate .cate-label a{
+    color:  #333;
+    font-size: 14px;
+    
+}
+.anony-events .side .events-cate .cate-label a:hover{
+    color: #fff;
+}
+.anony-events .side .events-cate li{
+    margin-left: 10px;
+}
+.anony-events .side .events-cate li a{
+    color: #643;
+}
+.anony-events .side .events-cate li a:hover{
+    color: #fff;
+}
+/* 内容结束 */
+
+/* 页脚 */
+footer .wrapper{
+    padding: 14px 0;
+    overflow: hidden;
+    border-top: 1px dashed #dcdcdc;
+    color: #999;
+    justify-content: space-between;
+}
+footer .wrapper .icp img{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer .wrapper .pic{
+    margin-top: 20px;
+}

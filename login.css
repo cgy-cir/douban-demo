@@ -1,0 +1,155 @@
+
+.account{
+    height: 260px;
+    width: 280px;
+    padding: 30px 10px 10px;
+    color: #9b9b9b;
+    margin: 0 auto;
+}
+.account .account-tabs{
+    margin-bottom: 10px;
+}
+.account .account-tabs ul{
+    width: 280px;
+    border-bottom: 1px solid #ececec;
+    font-size: 0;
+}
+.account .account-tabs ul li{
+    display: inline-block;
+    width: 50%;
+    font-size: 13px;
+    line-height: 2;
+    text-align: center; 
+    cursor: pointer;
+}
+.account .account-tabs ul li:nth-of-type(1){
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    margin-bottom: -1px;
+}
+.account .account-tabs ul li:nth-of-type(2){
+    color: #9b9b9b;
+}
+.account .account-tabs .icon-switch a{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -47px;
+    width: 30px;
+    height: 30px;
+    background: url(./images/qrcode.png) top left/100%;
+}
+
+
+.account-tabcon .account-form .account-form-tips{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.account-form-tips a{
+    display:inline;
+    color: #41ac52;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.account-form form .account-form-input{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #e4e6e5;
+}
+.account-form form input:nth-of-type(1){
+    padding: 8px 40px 8px 60px;
+}
+.account-form form input:nth-of-type(2){
+    padding: 8px 10px;
+}
+.account-form form .selected{
+    position: absolute;
+    width: 50px;
+    margin-top: -43px;
+    line-height: 36px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+    cursor: pointer;
+}
+.account-form form .selected::after{
+    position: absolute;
+    content:"";
+    height: 22px;
+    margin-top: 6px;
+    margin-left: 10px;
+    border-right: 1px solid rgba(0,0,0,.12);
+}
+
+.account-form form > a{
+   position: absolute;
+   margin-left: 200px;
+   margin-top: -43px;
+   line-height: 35px;
+   font-size: 13px;
+   color: #41ac52;
+}
+.account-form form .account-form-submit{
+
+}
+.account-form form .account-form-submit .account-form-btn{
+    display: block;
+    width: 100%;
+    background-color: rgba(66,189,86,.5);
+    text-align: center;
+    color:#fff;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.account-form-ft .account-form-remember{
+    margin: 10px 0;
+    display: inline-block;
+}
+.account-form-ft{
+    overflow: hidden;
+}
+.account-form-ft .account-form-remember label{
+    font-size: 13px;
+    color: #333;
+}
+.account-form-ft .account-form-link{
+    margin: 10px 0;
+    float: right;
+}
+.account-form-ft .account-form-link a{
+    color: #41ac52;
+    font-size: 13px;
+}
+.account-form-3rd{
+    display: flex;
+    align-items: center;
+    height: 34px;
+    width: 250px;
+    border-top: 1px solid #ddd;
+}
+.account-form-3rd .account-form-3rd-hd{
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.account-form-3rd .account-form-3rd-bd{
+    display: inline-block;
+    align-self: flex-end;
+}
+.account-form-3rd .account-form-3rd-bd i{
+    font-size: 22px;
+    margin-left: 12px;
+}
+.account-form-3rd .account-form-3rd-bd .iconweibo{
+    color: red;
+    opacity: 0.5;
+}
+.account-form-3rd .account-form-3rd-bd .iconweixin{
+    color:#64C574;
+    opacity: 0.5;
+}
