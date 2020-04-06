@@ -1,150 +1,149 @@
-@import"http://at.alicdn.com/t/font_1443851_ndp8cjkv71i.css";
-.relative{
-    position: relative;
+@import "https://at.alicdn.com/t/font_1443851_ndp8cjkv71i.css";
+.relative {
+  position: relative;
 }
-.clearfix::after{
-    display: block;
-    content: "";
-    clear: both;
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
-.section{
-    padding: 10px 0;
-    margin-bottom: 30px;
-    min-height: 200px;
+.section {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  min-height: 200px;
 }
 .section:nth-child(2n) {
-    padding: 40px 0 20px;
-    background: #f7f7f7;
+  padding: 40px 0 20px;
+  background: #f7f7f7;
 }
-.wrapper .sidenav{
-    width: 100px;
-    margin-right: 20px;
-    order: 0;
-}
-
-.wrapper .side{
-    width: 265px;
-    margin-left: 30px;
-    order: 2;
-}
-.wrapper .main{
-    flex:1;
-    order: 1;
-    
-}
-.wrapper{
-    display: flex;
-    width: 950px;
-    margin: 0 auto;
-}
-h2{
-    font: 15px Arial, Helvetica, sans-serif;
-    color: #072;
-    margin: 0 0 12px 0;
-    line-height: 150%;
-    font: 15px Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.pl{
-    font: 12px Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    font-size: 12px;
-    line-height: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 150%;
-    color: rgb(51,119,170);
-}
-h2 > a{
-    display: inline-block;
-    color:rgb(73, 73, 73);
-    font-size: 24px;
-    font-weight: 400;
-}
-.pl a{
-    display: inline-block;
-    color: #37a;
-}
-a{
-    display: inline;
-    color: #37a;
-}
-div a:hover{
-    color: #fff;
-    background: #37a;
-}
-a:active{
-    color: #fff;
-    background: #f93;
-}
-.title{
-    display: inline;
-    font-size: 13px;
-    line-height: 1.54;
-    color:#333;
-}
-.star{
-    display: inline-block;
-    background: url(./images/ic_rating_s.png) top left;
-    width: 55px;
-    height: 11px;
-}
-.star45{
-    background-position: 0 -11px;
-}
-.star40{
-    background-position: 0 -22px;
-}
-.star35{
-    background-position: 0 -33px;
-}
-.star30{
-    background-position: 0 -44px;
-}
-.star25{
-    background-position: 0 -55px;
-}
-.star20{
-    background-position: 0 -66px;
-}
-.star15{
-    background-position: 0 -77px;
-}
-.star10{
-    background-position: 0 -88px;
-}
-.star05{
-    background-position: 0 -99px;
-}
-.star00{
-    background-position: 0 -110px;
+.wrapper .sidenav {
+  width: 100px;
+  margin-right: 20px;
+  order: 0;
 }
 
-.app-icon{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: url(./images/app_icons_50_10.jpg) no-repeat;
-    box-shadow: 1px 1px 2px #999;
-    border-radius: 10px;
+.wrapper .side {
+  width: 265px;
+  margin-left: 30px;
+  order: 2;
 }
-.app-icon-fm{
-background-position-x: -250px
+.wrapper .main {
+  flex: 1;
+  order: 1;
 }
-.app-icon-artists{
-    background-position-x: -50px; 
+.wrapper {
+  display: flex;
+  width: 950px;
+  margin: 0 auto;
+}
+h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+  font: 15px Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pl {
+  font: 12px Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: rgb(51, 119, 170);
+}
+h2 > a {
+  display: inline-block;
+  color: rgb(73, 73, 73);
+  font-size: 24px;
+  font-weight: 400;
+}
+.pl a {
+  display: inline-block;
+  color: #37a;
+}
+a {
+  display: inline;
+  color: #37a;
+}
+div a:hover {
+  color: #fff;
+  background: #37a;
+}
+a:active {
+  color: #fff;
+  background: #f93;
+}
+.title {
+  display: inline;
+  font-size: 13px;
+  line-height: 1.54;
+  color: #333;
+}
+.star {
+  display: inline-block;
+  background: url(./images/ic_rating_s.png) top left;
+  width: 55px;
+  height: 11px;
+}
+.star45 {
+  background-position: 0 -11px;
+}
+.star40 {
+  background-position: 0 -22px;
+}
+.star35 {
+  background-position: 0 -33px;
+}
+.star30 {
+  background-position: 0 -44px;
+}
+.star25 {
+  background-position: 0 -55px;
+}
+.star20 {
+  background-position: 0 -66px;
+}
+.star15 {
+  background-position: 0 -77px;
+}
+.star10 {
+  background-position: 0 -88px;
+}
+.star05 {
+  background-position: 0 -99px;
+}
+.star00 {
+  background-position: 0 -110px;
+}
+
+.app-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(./images/app_icons_50_10.jpg) no-repeat;
+  box-shadow: 1px 1px 2px #999;
+  border-radius: 10px;
+}
+.app-icon-fm {
+  background-position-x: -250px;
+}
+.app-icon-artists {
+  background-position-x: -50px;
 }
